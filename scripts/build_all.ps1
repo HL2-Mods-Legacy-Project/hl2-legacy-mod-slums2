@@ -1,12 +1,11 @@
 & "$PSScriptRoot\..\gitmodules\mod-installer\build_all.ps1" `
-  -Version "<version>" `
+  -Version "2.0.0" `
   -PreReleaseVersion "beta.1" `
-  -OutputFilePrefix "<output file prefix>" `
-  -ModName "<mod name>" `
-  -ModFolder "<mod folder>" `
-  -AdditionalModFolders @() `
+  -OutputFilePrefix "Slums_2_Extended" `
+  -ModName "Slums 2 Extended" `
+  -ModFolder "Slums 2" `
   -ModFilesPath "$PSScriptRoot\..\game" `
-  -ModBaseFilesUrl "<url to mod base files zip>" `
-  -ModBaseFilesUrlHash "<mod base files zip sha256>" `
-  -ModReadmePath "<mod readme path>" `
+  -ModBaseFilesUrl "https://github.com/HL2-Mods-Legacy-Project/hl2-legacy-registry/releases/download/slums2/Slums-2-Extended-Original.zip" `
+  -ModBaseFilesUrlHash "311481ed19a2b55620f88ce17c3ad8dbda1e70cacf78ee2cdc3735944727fbf5" `
+  -ModReadmePath "Slums 2 Extended - Readme.txt" `
   -PublishPath "$PSScriptRoot\..\artifacts\publish"
